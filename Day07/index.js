@@ -12,7 +12,7 @@ console.log(num.toPrecision(4));
 console.log(num.toPrecision(3));
 console.log(num.toString(3));
 
-// math
+// math props
 console.log(Math.E);
 console.log(Math.PI);
 console.log(Math.abs(-5));
