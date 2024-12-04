@@ -13,6 +13,9 @@
 //  null ==undefined true
 // null ===undefined false
 
+console.log(typeof null);
+console.log(typeof undefined);
+
 // console.log(null==undefined);
 // console.log(null===undefined);
 
@@ -47,11 +50,11 @@ console.log(NaN==NaN);
 
 
 
-console.log(null==undefined);
-console.log(null!=undefined);
-console.log(null===undefined);
-console.log(typeof null);
-console.log(typeof undefined);
+// console.log(null==undefined);
+// console.log(null!=undefined);
+// console.log(null===undefined);
+// console.log(typeof null);
+// console.log(typeof undefined);
 
 
 // bitwise operator
