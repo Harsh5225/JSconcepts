@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #1a1a1a, #4d4d4d);
+}
+
+#container {
+  height: 300px;
+  min-width: 600px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #333; /* Darker border */
+  background-color: #f9f9f9; /* Soft white background */
+  box-shadow: 0px 4px  20px rgba(0, 0, 0, 0.3); /* Softer shadow */
+  z-index: 1000;
+  border-radius: 15px; /* Slightly larger border radius */
+}
+
+.heading {
+  font-weight: bolder;
+  font-size: 1.8rem; /* Increased font size */
+  width: 80%;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333; /* Darker text color */
+}
+
+.quote-box {
+  padding: 15px; /* Increased padding for better spacing */
+  height: auto; /* Allow height to adjust based on content */
+  width: 80%;
+  text-align: center;
+  background-color: #e6ffe6; /* Light green background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: -2px -2px 10px rgba(0,255,0,0.5), /* Subtle green shadow */
+              inset -1px -1px rgba(255,255,255,0.5); /* Inset white shadow for depth */
+              font-style: italic;
+              border-bottom:1px solid rgb(55, 0, 255) ;
+  
+}
+#quote{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.quote:hover {
+    transform: scale(1.02); /* Slight grow effect on hover */
+    transition: transform .2s ease-in-out; /* Smooth transition */
+}
