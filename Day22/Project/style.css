@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100wh;
+  height: 100vh;
+  background-color:rgb(25, 24, 24) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root{
+  background-color: wheat;
+  text-align: center;
+  padding:20px;
+  border: 2px solid blue;
+}
+input{
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+button{
+  margin: 20px 0;
+  font-size: 30px;
+}
+#id{
+  font-size: 40px;
+}

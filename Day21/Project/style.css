@@ -12,7 +12,7 @@ body {
 
 #container {
   height: 300px;
-  min-width: 600px ;
+  min-width: 700px ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,4 +61,19 @@ body {
 .quote:hover {
     transform: scale(1.02); /* Slight grow effect on hover */
     transition: transform .2s ease-in-out; /* Smooth transition */
+}
+
+button{
+  margin-top: 2rem ;
+  padding: 10px 0px;
+  border-radius:5px ;
+  background-color: rgb(0, 128, 68,0.3);
+  font-weight: bolder;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function:ease;
+  transition-delay: 2ms;
+}
+button:hover{
+  cursor: pointer;
 }

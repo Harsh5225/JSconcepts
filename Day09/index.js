@@ -15,7 +15,7 @@ console.log(date.getMilliseconds());
 // console.log(now);
 
 const date1 = new Date("2024-12-03");
-console.log(date1.toDateString());
+console.log("date",date1.toDateString());
 
 // number based 0 based indexing
 const date2 = new Date(2024, 5, 28, 10, 22, 100);

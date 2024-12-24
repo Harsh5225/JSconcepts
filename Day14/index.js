@@ -23,7 +23,7 @@
 // this will have the access of inherit keys also
 // console.log(key); // object is inherting object.prototype, why it is not printing keys of prototype object example->
 // toString
-// :
+// 
 // ƒ toString()
 // }
 

@@ -24,20 +24,28 @@ const quotes = [
   "Keep your face always toward the sunshine—and shadows will fall behind you.",
 ];
 
-// const index=;
-// console.log(index);
-
 // setInterval(
 //   () => (text.textContent = quotes[Math.floor(Math.random() * quotes.length)]),
 //   5000
 // );
 
-// const body = document.querySelector("body");
-// setInterval(() => {
-//   const r = Math.floor(Math.random() * 256); // Random value for Red (0-255)
-//   const g = Math.floor(Math.random() * 256); // Random value for Green (0-255)
-//   const b = Math.floor(Math.random() * 256); // Random value for Blue (0-255)
- 
-//   body.style.background =  `rgb(${r}, ${g}, ${b})`;
+const body = document.querySelector("body");
+setInterval(() => {
+  const r = Math.floor(Math.random() * 256); // Random value for Red (0-255)
+  const g = Math.floor(Math.random() * 256); // Random value for Green (0-255)
+  const b = Math.floor(Math.random() * 256); // Random value for Blue (0-255)
 
-// }, 5000);
+  body.style.background = `rgb(${r}, ${g}, ${b})`;
+}, 5000);
+
+const button = document.getElementById("button");
+
+// agar hume koi specific button ko press kar ke change karna ho to HOW?
+// event object
+button.addEventListener("click", (event) => {
+  console.log(event);
+  console.log(event.type);
+  console.log(event.clientX);
+  console.log(event.clientY);
+text.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+});
