@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroInsight - Discover Your Cosmic Path</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stars"></div>
+
+    <header>
+      <div class="header-content">
+        <div class="logo">AstroInsight</div>
+        <div class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Discover Your Cosmic Path</h1>
+      <h2>Unlock the secrets of the stars and understand your destiny</h2>
+      <div class="cosmic-icons">
+        <span>☀️</span>
+        <span>🌙</span>
+        <span>⭐</span>
+      </div>
+      <form action="https://example.com/submit" method="GET" id="astrologyForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your first name" />
+        </div>
+        <div class="form-group">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required placeholder="Enter your surname" />
+        </div>
+        <div class="form-group">
+            <label for="day">Day of Birth:</label>
+            <input type="number" id="day" min="1" max="31" name="day" required placeholder="DD" />
+        </div>
+        <div class="form-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" id="month" min="1" max="12" name="month" required placeholder="MM" />
+        </div>
+        <div class="form-group">
+            <label for="year">Year of Birth:</label>
+            <input type="number" id="year" min="1970" max="2023" name="year" required placeholder="YYYY" />
+        </div>
+        <button type="submit">Reveal My Cosmic Path</button>    
+    </form>
+      <div id="result"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 AstroInsight. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
